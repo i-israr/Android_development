@@ -1,0 +1,11 @@
+1) Static Registration
+
+Implementation are in manifest, android system can initiate processes and run your boardcast 
+receiver at any time. One example like you want to update your data when a new intent coming in from system
+or etc.. You need to take care Security issue as well.
+
+2) Dynamic Registration
+
+Implementation are in java code, boardcast receiver runs only when your app is running up to 
+that registration line. Thus, you mostly want to use this if you only want to bring up the 
+boardcast receiver with certain conditions.
